@@ -40,7 +40,7 @@ A análise do dataset sintético pode revelar que o desempenho dos funcionários
 
 - **Análise dos Dados de Desempenho:** Limpeza e preparação dos dados de desempenho dos funcionários (`synthetic_ecommerce_employee_performance_data.csv`).
 - **Relatórios de Performance:** Criação de relatórios detalhados sobre o desempenho dos funcionários com base em características e métricas de produtividade.
-- **Dashboards Interativos:** Desenvolvimento de dashboards para visualização de métricas e KPIs, utilizando ferramentas como Power BI.
+- **Dashboards Interativos:** Desenvolvimento de dashboards para visualização de métricas e KPIs.
 
 ### 2.2 Limitações e Exclusões
 
