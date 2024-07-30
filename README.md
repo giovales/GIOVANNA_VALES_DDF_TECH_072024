@@ -110,4 +110,6 @@ Explicação da modelagem com duas versões finais pode ser vista [aqui](https:/
 
 ## Item 08 - Sobre Pipelines
 
+[Pipeline](https://github.com/giovales/GIOVANNA_VALES_DDF_TECH_072024/blob/main/Pipeline.md)
+
 ## Item 09 - Sobre Data Apps
