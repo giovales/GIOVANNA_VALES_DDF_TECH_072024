@@ -1,0 +1,146 @@
+{
+  "evaluation_parameters": {},
+  "meta": {
+    "active_batch_definition": {
+      "batch_identifiers": {},
+      "data_asset_name": "ecommerce_asset",
+      "data_connector_name": "fluent",
+      "datasource_name": "ecommerce_datasource"
+    },
+    "batch_markers": {
+      "ge_load_time": "20240730T162120.608422Z",
+      "pandas_data_fingerprint": "62c1b4976996b1ede370382fcd476475"
+    },
+    "batch_spec": {
+      "reader_method": "read_csv",
+      "reader_options": {
+        "filepath_or_buffer": "D:\\Nuvem\\OneDrive - Indra\\\u00c1rea de Trabalho\\CASE TEC\\data\\synthetic_ecommerce_employee_performance_data.csv"
+      }
+    },
+    "checkpoint_id": null,
+    "checkpoint_name": "my_quickstart_checkpoint",
+    "expectation_suite_name": "ecommerce_expectation_suite",
+    "great_expectations_version": "0.18.19",
+    "run_id": {
+      "run_name": null,
+      "run_time": "2024-07-30T13:21:20.592728-03:00"
+    },
+    "validation_id": null,
+    "validation_time": "20240730T162121.626948Z"
+  },
+  "results": [
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "ecommerce_datasource-ecommerce_asset",
+          "column": "EmployeeID"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "element_count": 200000,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": [],
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "ecommerce_datasource-ecommerce_asset",
+          "column": "TaskDate"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "element_count": 200000,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": [],
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+          "batch_id": "ecommerce_datasource-ecommerce_asset",
+          "column": "TaskType",
+          "value_set": [
+            "customer_service",
+            "order_processing",
+            "inventory_management"
+          ]
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "element_count": 200000,
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": [],
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "unexpected_percent_total": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_median_to_be_between",
+        "kwargs": {
+          "batch_id": "ecommerce_datasource-ecommerce_asset",
+          "column": "Duration",
+          "max_value": 180,
+          "min_value": 10
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": 95.0
+      },
+      "success": true
+    }
+  ],
+  "statistics": {
+    "evaluated_expectations": 4,
+    "success_percent": 100.0,
+    "successful_expectations": 4,
+    "unsuccessful_expectations": 0
+  },
+  "success": true
+}
