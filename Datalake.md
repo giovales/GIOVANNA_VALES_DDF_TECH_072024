@@ -4,7 +4,7 @@
 
 Arquivo raw: synthetic_ecommerce_employee_performance_data.csv
 
-### Stating Zone
+### Staging Zone
 
 Limpeza dos dados: data_quality.ipynb script de limpeza de dados utilizando a biblioteca great-expectations do python, onde o Expectation Results Report informou que todos os dados estão prontos para uso.
 
