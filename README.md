@@ -31,8 +31,8 @@ O cliente, uma grande empresa fictícia de e-commerce, busca construir uma plata
 
 ## Item 0 - Sobre Agilidade e Planejamento
 
-[Iniciação do Projeto](https://github.com/giovales/GIOVANNA_VALES_DDF_TECH_072024/blob/main/Iniciacao_Projeto.md)
-[Cronograma KanBan](https://github.com/users/giovales/projects/2)
+- [Iniciação do Projeto](https://github.com/giovales/GIOVANNA_VALES_DDF_TECH_072024/blob/main/Iniciacao_Projeto.md)
+- [Cronograma KanBan](https://github.com/users/giovales/projects/2)
 
 ## Item 1 - Sobre a Base de Dados
 
@@ -55,8 +55,8 @@ Para realizar este case técnico, foi criada uma base de dados sintética que si
 ## Item 03 - Sobre a Dadosfera - Explorar
 
 ![Catalogação dos dados seguindo as boas práticas de Dicionário de Dados](Prints/image-1.png)
-[Dicionário de Dados](https://github.com/giovales/GIOVANNA_VALES_DDF_TECH_072024/blob/main/Dicionario_Dados.md)
-[DataLake](https://github.com/giovales/GIOVANNA_VALES_DDF_TECH_072024/blob/main/Datalake.md)
+- [Dicionário de Dados](https://github.com/giovales/GIOVANNA_VALES_DDF_TECH_072024/blob/main/Dicionario_Dados.md)
+- [DataLake](https://github.com/giovales/GIOVANNA_VALES_DDF_TECH_072024/blob/main/Datalake.md)
 
 ## Item 04 - Sobre Data Quality
 
@@ -72,8 +72,8 @@ Para configurar o Great Expectations com um arquivo local, é necessário seguir
 
 O código utilizado para testar a qualidade e gerar o relatório de qualidade dos dados está disponível no arquivo [data_quality](https://github.com/giovales/GIOVANNA_VALES_DDF_TECH_072024/blob/main/data_quality/gx/data_quallity.ipynb).
 
-[Resposta da questão sobre dados de qualidade](https://github.com/giovales/GIOVANNA_VALES_DDF_TECH_072024/blob/main/data_quality/resposta_questao.md).
-[Relatório de qualidade](file:///D:/Nuvem/OneDrive%20-%20Indra/%C3%81rea%20de%20Trabalho/GIOVANNA_VALES_DDF_TECH_072024/data_quality/gx/uncommitted/data_docs/local_site/index.html).
+- [Resposta da questão sobre dados de qualidade](https://github.com/giovales/GIOVANNA_VALES_DDF_TECH_072024/blob/main/data_quality/resposta_questao.md).
+- [Relatório de qualidade](file:///D:/Nuvem/OneDrive%20-%20Indra/%C3%81rea%20de%20Trabalho/GIOVANNA_VALES_DDF_TECH_072024/data_quality/gx/uncommitted/data_docs/local_site/index.html).
 
 ## Item 05 - Sobre o uso de GenAI e LLMs - Processar
 
