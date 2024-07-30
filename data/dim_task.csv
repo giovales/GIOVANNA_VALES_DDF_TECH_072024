@@ -1,0 +1,4 @@
+TaskType,TaskTypeID
+customer_service,1
+inventory_management,2
+order_processing,3
